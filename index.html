@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/alura-logo.png" alt="Logo" class="logo">
+            <h1>Encriptador de Texto</h1>
+        </header>
+        <main>
+            <textarea id="input-text" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="options">
+                <label>
+                    <input type="radio" name="action" value="encriptar" checked> Encriptar
+                </label>
+                <label>
+                    <input type="radio" name="action" value="desencriptar"> Desencriptar
+                </label>
+            </div>
+            <button id="process-btn">Procesar</button>
+            <textarea id="output-text" readonly placeholder="Resultado aquí..."></textarea>
+            <button id="copy-btn">Copiar</button>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
